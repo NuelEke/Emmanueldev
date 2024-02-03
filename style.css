@@ -1,0 +1,215 @@
+header {
+  text-align: center;
+  font-size: 20px;
+  margin: 50px;
+  }
+  html {
+    height: -webkit fill available;
+  }
+  body{
+    background-color: blueviolet;
+  }
+  nav {
+    background-color: #7E5695;
+    font-size: 10px;
+    padding: 10px 0 10px 5px;
+    text-align: right;
+  }
+  main{
+    background-color: burlywood;
+    border-radius: 40px;
+    font: 1em sans-serif;
+    font-size: 15px;
+  }
+  footer {
+    margin-top: 200px;
+    background-color: rgb(211, 97, 97);
+    color: #6F3276;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px
+  }
+
+  footer:hover{
+    background-color: #000FFE;
+  }
+  h1 {
+    color: #5A72EE;
+    text-align: center;
+    margin: 100px;
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  h2 {
+    color: blueviolet;
+    text-align: center;
+    padding-top: 100PX;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  h3 {
+    color: #6F3276;
+    text-align: center;
+    font-size: 29px;
+  }
+    h4 {
+      color: brown;
+      text-align: center;
+    }
+    h5 {
+      color: brown;
+      padding: 30px;
+    }
+  p {
+    color: burlywood;
+    background-color: #7E5695;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+    @keyframes highlighttext {
+      0% {
+        color: red;
+      }
+      50% {
+        color: blue;
+      }
+      100% {
+        color: yellow;
+      }
+    }
+      p {
+        animation: highlighttext 2s ease;
+      }
+  strong {
+    color: #E952DE;
+  }
+  ol {
+    color: white;
+    font-size: medium;
+    border-radius: 5px;
+    border: solid 2px pink;
+    border-radius: 5px;
+    padding: 10px 10px 10px 50px;
+    background-color: #000FFE;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  
+ 
+  button {
+    background-color: #7E5695;
+    font-size: 10px;
+    font-weight: bold;
+    color: aqua;
+    text-align: left;
+    margin: 5px;
+  }
+  button:hover{
+    background-color: #E952DE;
+  }
+  img:hover{
+    background: lightblue;
+  }
+  a {
+    color: aqua;
+  }
+
+  a:hover{
+    color: gray;
+  }
+  mark {
+    background-color: #4818b7;
+    border-radius: 5px;
+    color: white;
+  }
+
+  mark:hover {
+    background-color: #d42065;
+    color: #4812c7;
+  }
+
+ @keyframes highlighttext {
+  0% {
+    color: red;
+  }
+
+  50% {
+    color: gold;
+    font-size: 10px;
+  }
+
+  100% {
+    color: blue;
+  }
+ } 
+
+span {
+    animation: highlighttext 1s infinite;
+}
+
+  x{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.container{
+  width: 86.7vmin;
+  position: relative;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  border: 20px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  animation: slide 10s infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translateX(0);
+  }
+  25%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+  55%{
+    transform: translateX(-200%);
+  }
+  75%{
+    transform: translateX(-200%);
+  }
+  80%{
+    transform: translateX(-300%);
+  }
+  100%{
+    transform: translateX(-300%);
+  }
+}
+
+
+
+@keyframes bounce { 
+  0% { 
+    transform: translateY(0); } 
+    100% 
+    { transform: translateY(-50px); }
+   }
+#demo { animation: bounce 0.8s infinite alternate; }
+
+
+
+
