@@ -2,8 +2,9 @@ header {
   text-align: center;
   font-size: 5px;
   margin: 40px;
-  
-  }
+  display: flex;
+  flex-direction: center;
+}
   html {
     height: -webkit fill available;
   }
